@@ -33,12 +33,12 @@ This folder contains a simple browser-based game portal with three HTML pages:
 
 ## Portal Game
 
-![Portal Game](game/Screenshots/games-chess-tictactoe.netlify.app_.png)
+<img src="game/Screenshots/games-chess-tictactoe.netlify.app_.png" width="500" height="500" alt="Portal Game">
 
 ## Chess Game
 
-![Chess Game](game/Screenshots/games-chess-tictactoe.netlify.app_chess.png)
+<img src="game/Screenshots/games-chess-tictactoe.netlify.app_chess.png" width="500" height="500" alt="Chess Game">
 
 ## Tic-Tac-Toe Page
 
-![Tic Tac Toe](game/Screenshots/games-chess-tictactoe.netlify.app_tictactoe.png)
+<img src="game/Screenshots/games-chess-tictactoe.netlify.app_tictactoe.png" width="500" height="500" alt="Tic Tac Toe Page">
