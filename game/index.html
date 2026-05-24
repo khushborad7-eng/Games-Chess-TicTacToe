@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    header {
+      background: #080c14;
+      color: #fff;
+      padding: 16px 0;
+      text-align: center;
+    }
+
+    .nav-options {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      padding: 0 12px;
+    }
+
+    .nav-options a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0;
+      padding: 6px 14px;
+      border-radius: 3px;
+      background: #5a7bdd;
+      min-width: 96px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-options a.active {
+      background: #314375;
+    }
+
+    main {
+      min-height: 300px;
+      padding: clamp(16px, 4vw, 30px) 12px;
+      text-align: center;
+      flex: 1;
+    }
+
+    main h1 {
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      margin: 0;
+    }
+
+    footer {
+      background: #333;
+      color: #eee;
+      text-align: center;
+      padding: 10px 12px;
+      font-size: 1rem;
+      margin-top: auto;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Game Portal</h1>
+    <nav class="nav-options">
+      <a href="index.html" class="active">Home</a>
+      <a href="tictactoe.html">Tic Tac Toe</a>
+      <a href="chess.html">Chess</a>
+    </nav>
+  </header>
+
+  <main>
+   <h1>
+    if play game click on game name!
+   </h1>
+  </main>
+
+  <footer>
+    &copy; 2026 Game Portal 
+  </footer>
+</body>
+</html>
